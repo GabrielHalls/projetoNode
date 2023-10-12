@@ -1,15 +1,18 @@
-const http = require ('http');
+const express = require ('express');
+const app = express();
+const path = require('path');
+const router = express.Router();
 
-const hostname ='127.0.0.1';
-const port = 5500;
 
-const server =  http.createServer((req,res)=>{
-    res.statusCode = 200;
-    res.setHeader('Content-Type', 'text/plain')
-    res.end('Olha o gordinho desenrolando')
 
-});
 
-server.listen(port,hostname,()=>{
-    console.log("testando");
+
+
+router.get('/', function(rec,res){
+    res.sendFile(path.join(__dirname+'/index.html')  );
 })
+
+app.use('/', router);
+app.listen(process.env.port || 5500);
+
+console.log("Servidor ON")
