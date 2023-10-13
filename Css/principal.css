@@ -1,5 +1,5 @@
 body {
-    background-image: url(/image/quadro-vazio.jpg);
+    background-image: url(../image/quadro-vazio.jpg);
     background-size: cover;
     color: white;
     background-repeat: no-repeat; 
