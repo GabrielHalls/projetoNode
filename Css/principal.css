@@ -1,0 +1,31 @@
+body {
+    background-image: url(/image/quadro-vazio.jpg);
+    background-size: cover;
+    color: white;
+    background-repeat: no-repeat; 
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Centralizar horizontalmente */
+    align-items: center; /* Centralizar verticalmente */
+    flex-wrap: wrap; /* Quebra para a próxima linha quando não há espaço */
+  }
+  
+  .div {
+    width: 200px; /* Define o tamanho das imagens */
+    height: 200px;
+    margin: 10px; /* Espaço entre as imagens */
+  }
+  
+  img {
+    max-width: 100%; /* Garante que as imagens não ultrapassem o tamanho das divs de imagem */
+    max-height: 100%;
+  }
+  
+  .container p{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+  }
