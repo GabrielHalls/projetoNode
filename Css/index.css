@@ -1,5 +1,5 @@
 body {
-    background-image: url(/image/backgroun-fundo-principal.jpg);
+    background-image: url(../image/backgroun-fundo-principal.jpg);
     background-size: cover;
     color: white;
 }
