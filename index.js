@@ -15,4 +15,4 @@ router.get('/', function(rec,res){
 app.use('/', router);
 app.listen(process.env.port || 5500);
 
-console.log("Servidor ON")
+console.log("Servidor Online")
