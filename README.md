@@ -5,7 +5,7 @@
 Seja bem-vindo ao Desafio Aventura Geométrica! 
 
 Neste emocionante exercício de lógica de programação, você vai mergulhar em um mundo cheio de formas geométricas e desafios matemáticos. Vamos combinar habilidades de codificação com criatividade na criação de um projeto NodeJS incrível usando JavaScript!
-============================================================================
+<hr/>
 
 <img src="https://github.com/GabrielHalls/projetoNode/assets/111321165/90b30605-95d5-4d57-a89d-0eddc227be74">
 O exemplo acima o usuario informa qual forma geométrica ele quer explorar
