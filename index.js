@@ -5,8 +5,6 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-
-
 function retornar() {
   rl.question(` Selecione o numero da formula que deseja calcular:
 
@@ -22,8 +20,6 @@ function retornar() {
             Digite [10] para poligono irregular:
 
             Numero escolhido:`, (day) => {
-
-
     switch (day) {
 
       case '1':
